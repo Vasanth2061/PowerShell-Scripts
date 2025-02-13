@@ -5,8 +5,8 @@ This PowerShell script lists all items in a specified directory along with their
 
 ## Parameters
 
-- `directoryPath`: The path to the directory you want to list. Default is `C:\default\directory\path`.
-- `outputFilePath`: The path to the output text file. Default is `C:\default\output\path\output.txt`.
+- `directoryPath`: The path to the directory you want to list. Default is `C:`.
+- `outputFilePath`: The path to the output text file. Default is `C:\Users\mvasanth\Downloads`.
 
 ## Usage
 
@@ -22,10 +22,6 @@ To specify the directory path and output file path, use the following command:
 ```powershell
 .\ListItems-LastUpdated.ps1 -directoryPath "C:\path\to\directory" -outputFilePath "C:\Users\mvasanth\Downloads\output.txt"
 ```
-
-### Default Locations
-directoryPath: C:\
-outputFilePath: C:\Users\mvasanth\Downloads
 
 ### Troubleshooting
 
