@@ -16,7 +16,7 @@ To run the script with default parameters, simply execute:
 
 ```powershell
 .\ListItems-LastUpdated.ps1
-
+```
 ### Running the Script with Custom Parameters
 To specify the directory path and output file path, use the following command:
 ```powershell
