@@ -6,7 +6,7 @@ This PowerShell script lists all items in a specified directory along with their
 ## Parameters
 
 - `directoryPath`: The path to the directory you want to list. Default is `C:`.
-- `outputFilePath`: The path to the output text file. Default is `C:\Users\mvasanth\Downloads`.
+- `outputFilePath`: The path to the output text file. Default is `C:\Users\mvasanth\Downloads\output.txt`.
 
 ## Usage
 
