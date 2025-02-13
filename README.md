@@ -33,7 +33,7 @@ File C:\Users\mvasanth\Downloads\ListItems-LastUpdated.ps1 cannot be loaded. The
 
 You need to change the execution policy to allow running the script. Open PowerShell as Administrator and run the following command:
 ```powershell
-Set-ExecutionPolicy -ExecutionPolicy UnRestricted -Scope CurrentUser
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
 ```
 
-This will allow you to run the script while maintaining a level of security by requiring remote scripts to be signed.
+This will allow you to run the script while maintaining a level of security by requiring remote scripts to be unrestricted.
