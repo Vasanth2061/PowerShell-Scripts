@@ -21,6 +21,7 @@ To run the script with default parameters, simply execute:
 To specify the directory path and output file path, use the following command:
 ```powershell
 .\ListItems-LastUpdated.ps1 -directoryPath "C:\path\to\directory" -outputFilePath "C:\Users\mvasanth\Downloads\output.txt"
+```
 
 ### Default Locations
 directoryPath: C:\
@@ -32,9 +33,11 @@ Execution Policy Error
 If you encounter an error related to the execution policy, such as:
 ```powershell
 File C:\Users\mvasanth\Downloads\ListItems-LastUpdated.ps1 cannot be loaded. The file C:\Users\mvasanth\Downloads\ListItems-LastUpdated.ps1 is not digitally signed. You cannot run this script on the current system.
+```
 
 You need to change the execution policy to allow running the script. Open PowerShell as Administrator and run the following command:
 ```powershell
 Set-ExecutionPolicy -ExecutionPolicy UnRestricted -Scope CurrentUser
+```
 
 This will allow you to run the script while maintaining a level of security by requiring remote scripts to be signed.
