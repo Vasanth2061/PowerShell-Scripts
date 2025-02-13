@@ -17,16 +17,17 @@ To run the script with default parameters, simply execute:
 ```powershell
 .\ListItems-LastUpdated.ps1
 
-Running the Script with Custom Parameters
+### Running the Script with Custom Parameters
 To specify the directory path and output file path, use the following command:
 ```powershell
 .\ListItems-LastUpdated.ps1 -directoryPath "C:\path\to\directory" -outputFilePath "C:\Users\mvasanth\Downloads\output.txt"
 
-Default Locations
+### Default Locations
 directoryPath: C:\
 outputFilePath: C:\Users\mvasanth\Downloads
 
-Troubleshooting
+### Troubleshooting
+
 Execution Policy Error
 If you encounter an error related to the execution policy, such as:
 ```powershell
