@@ -1,6 +1,6 @@
 param (
-    [string]$directoryPath = "C:\default\directory\path",
-    [string]$outputFilePath = "C:\default\output\path\output.txt"
+    [string]$directoryPath = "C:\",
+    [string]$outputFilePath = "C:\Users\mvasanth\Downloads"
 )
 
 # Ensure the directory for the output file exists
